@@ -1,0 +1,152 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UserSecretsId>aspnet-ExamsSystem-01DE9CD7-2489-4C0B-B82C-C9CB111BE33B</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Questions\radio1.cshtml" />
+    <Content Remove="Views\Shared\_Layout222.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Questions\radio1.cshtml" />
+    <None Include="Views\Shared\_Layout222.cshtml" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.svg" />
+    <None Include="wwwroot\assets\fonts\fontawesome-webfont.woff2" />
+    <None Include="wwwroot\assets\fonts\themify.svg" />
+    <None Include="wwwroot\assets\images\icon\market-value\Thumbs.db" />
+    <None Include="wwwroot\assets\images\icon\Thumbs.db" />
+    <None Include="wwwroot\assets\js\bar-chart.js" />
+    <None Include="wwwroot\assets\js\bootstrap.min.js" />
+    <None Include="wwwroot\assets\js\jquery.slicknav.min.js" />
+    <None Include="wwwroot\assets\js\jquery.slimscroll.min.js" />
+    <None Include="wwwroot\assets\js\line-chart.js" />
+    <None Include="wwwroot\assets\js\maps.js" />
+    <None Include="wwwroot\assets\js\metisMenu.min.js" />
+    <None Include="wwwroot\assets\js\owl.carousel.min.js" />
+    <None Include="wwwroot\assets\js\pie-chart.js" />
+    <None Include="wwwroot\assets\js\plugins.js" />
+    <None Include="wwwroot\assets\js\popper.min.js" />
+    <None Include="wwwroot\assets\js\scripts.js" />
+    <None Include="wwwroot\assets\js\vendor\jquery-2.2.4.min.js" />
+    <None Include="wwwroot\assets\js\vendor\modernizr-2.8.3.min.js" />
+    <None Include="wwwroot\css\maps\horizontal-layout-dark\style.css.map" />
+    <None Include="wwwroot\css\maps\horizontal-layout-light\style.css.map" />
+    <None Include="wwwroot\css\maps\vertical-layout-dark\style.css.map" />
+    <None Include="wwwroot\css\maps\vertical-layout-light\style.css.map" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-Bold.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-ExtraBold.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-ExtraLight.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-Light.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-Medium.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-Regular.woff2" />
+    <None Include="wwwroot\fonts\Manrope\Manrope-SemiBold.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-Black.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-Bold.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-ExtraBold.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-ExtraLight.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-Italic.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-Light.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-Regular.woff2" />
+    <None Include="wwwroot\fonts\Nunito\Nunito-SemiBold.woff2" />
+    <None Include="wwwroot\fonts\Roboto\Roboto-Black.woff2" />
+    <None Include="wwwroot\fonts\Roboto\Roboto-Bold.woff2" />
+    <None Include="wwwroot\fonts\Roboto\Roboto-Light.woff2" />
+    <None Include="wwwroot\fonts\Roboto\Roboto-Medium.woff2" />
+    <None Include="wwwroot\fonts\Roboto\Roboto-Regular.woff2" />
+    <None Include="wwwroot\images\logo-light.svg" />
+    <None Include="wwwroot\images\logo-mini-reverse.svg" />
+    <None Include="wwwroot\images\logo-mini.svg" />
+    <None Include="wwwroot\images\logo.svg" />
+    <None Include="wwwroot\js\ace.js" />
+    <None Include="wwwroot\js\alerts.js" />
+    <None Include="wwwroot\js\avgrund.js" />
+    <None Include="wwwroot\js\bootstrap-table.js" />
+    <None Include="wwwroot\js\bt-maxLength.js" />
+    <None Include="wwwroot\js\c3.js" />
+    <None Include="wwwroot\js\calendar.js" />
+    <None Include="wwwroot\js\chart.js" />
+    <None Include="wwwroot\js\Chart.roundedBarCharts.js" />
+    <None Include="wwwroot\js\chartist.js" />
+    <None Include="wwwroot\js\circle-progress.js" />
+    <None Include="wwwroot\js\clipboard.js" />
+    <None Include="wwwroot\js\codeEditor.js" />
+    <None Include="wwwroot\js\codemirror.js" />
+    <None Include="wwwroot\js\context-menu.js" />
+    <None Include="wwwroot\js\cropper.js" />
+    <None Include="wwwroot\js\dashboard.js" />
+    <None Include="wwwroot\js\data-table.js" />
+    <None Include="wwwroot\js\dataTables.select.min.js" />
+    <None Include="wwwroot\js\db.js" />
+    <None Include="wwwroot\js\demo.js" />
+    <None Include="wwwroot\js\desktop-notification.js" />
+    <None Include="wwwroot\js\dragula.js" />
+    <None Include="wwwroot\js\dropify.js" />
+    <None Include="wwwroot\js\dropzone.js" />
+    <None Include="wwwroot\js\editorDemo.js" />
+    <None Include="wwwroot\js\file-upload.js" />
+    <None Include="wwwroot\js\flot-chart.js" />
+    <None Include="wwwroot\js\form-addons.js" />
+    <None Include="wwwroot\js\form-repeater.js" />
+    <None Include="wwwroot\js\form-validation.js" />
+    <None Include="wwwroot\js\formpickers.js" />
+    <None Include="wwwroot\js\google-charts.js" />
+    <None Include="wwwroot\js\google-maps.js" />
+    <None Include="wwwroot\js\hoverable-collapse.js" />
+    <None Include="wwwroot\js\iCheck.js" />
+    <None Include="wwwroot\js\inputmask.js" />
+    <None Include="wwwroot\js\ion-range-slider.js" />
+    <None Include="wwwroot\js\jq.tablesort.js" />
+    <None Include="wwwroot\js\jquery-file-upload.js" />
+    <None Include="wwwroot\js\jquery.cookie.js" />
+    <None Include="wwwroot\js\js-grid.js" />
+    <None Include="wwwroot\js\just-gage.js" />
+    <None Include="wwwroot\js\light-gallery.js" />
+    <None Include="wwwroot\js\listify.js" />
+    <None Include="wwwroot\js\mapael.js" />
+    <None Include="wwwroot\js\mapael_example_1.js" />
+    <None Include="wwwroot\js\mapael_example_2.js" />
+    <None Include="wwwroot\js\maps.js" />
+    <None Include="wwwroot\js\modal-demo.js" />
+    <None Include="wwwroot\js\morris.js" />
+    <None Include="wwwroot\js\no-ui-slider.js" />
+    <None Include="wwwroot\js\off-canvas.js" />
+    <None Include="wwwroot\js\owl-carousel.js" />
+    <None Include="wwwroot\js\paginate.js" />
+    <None Include="wwwroot\js\popover.js" />
+    <None Include="wwwroot\js\profile-demo.js" />
+    <None Include="wwwroot\js\progress-bar.js" />
+    <None Include="wwwroot\js\rickshaw.js" />
+    <None Include="wwwroot\js\select2.js" />
+    <None Include="wwwroot\js\settings.js" />
+    <None Include="wwwroot\js\site.js" />
+    <None Include="wwwroot\js\sparkline.js" />
+    <None Include="wwwroot\js\tablesorter.js" />
+    <None Include="wwwroot\js\tabs.js" />
+    <None Include="wwwroot\js\template.js" />
+    <None Include="wwwroot\js\tight-grid.js" />
+    <None Include="wwwroot\js\toastDemo.js" />
+    <None Include="wwwroot\js\todolist.js" />
+    <None Include="wwwroot\js\tooltips.js" />
+    <None Include="wwwroot\js\typeahead.js" />
+    <None Include="wwwroot\js\wizard.js" />
+    <None Include="wwwroot\js\x-editable.js" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.8" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.13" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.13" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.14" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.14">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.12" />
+  </ItemGroup>
+
+</Project>
